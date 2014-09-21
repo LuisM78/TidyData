@@ -12,6 +12,8 @@ After being downloaded, the original description of the files was read from
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+The data is taken from the accelerometer and gyroscope that are installed in smartphones and is collected for 30 people doing 6 different activities. 
+
 The merged data set (train&test) contained 563 variables with 10299 observations. It was composed of the following files: X_test.txt, y_test.txt, subject_test.txt, X_train.txt, y_train.txt, subject_train.txt.
 
 From the merged data set, the variables that contained the: "mean","std" in their names were extracted using regular expressions. These were 86 in total. Another two variables to include the yvalues and the subject columns were added to the data set. The variables names were also treated to eliminate any dashes (-),parenthesis "()". All the variables names were also converted to lowercase. 
@@ -36,6 +38,8 @@ They were also converted using gsub, to eliminate the undescore and to lower the
 Finally, the averages (mean), values of the corresponding subject and for each activity were computed for each of the variables.
 
 The final variables in the tidy data correspond to the following:
+
+* Column Names (88 in total)
 
     * yvalues    # Correspond to the activity column
     * subject    # Correspond to the subject
