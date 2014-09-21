@@ -11,8 +11,8 @@ and gyroscope installed in smartphones. The data was taken for 30 individuals.
 About 70% of the data was taken for training and the other 30% for testing 
 a machine learning algorythim for human activity recognition. 
  
-The scripts assumes the data has previously been donwloaded from the internet and unzipped
-in order to run, the script needs to be in the working directory where the files are available.
+The scripts assumes the data has previously been donwloaded from the internet and unzipped.
+In order to run, the script needs to be in the working directory where the files are available.
 
 IMPORTANT: It also uses the plyr library. Please install before running!!!.
 
