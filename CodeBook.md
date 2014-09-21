@@ -12,6 +12,26 @@ After being downloaded, the original description of the files was read from
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+The merged data set (train&test) contained 563 variables with 10299 observations.
+
+From the merged data set, the variables that contained the: "mean","std" in their names were extracted using regular expressions. These were 86 in total. Another two variables to include the yvalues and the subject columns were added to the data set. The variables were also treated to eliminate any dashes (-),parenthesis "()". All the variables names were also converted to lowercase. 
+For the activity labels, they were changed from the corresponding integer
+1, 2, 3, 4,5,6 to the corresponding activity using the following descriptive names:
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+They were also converted using gsub, to eliminate the undescore and to lower their case and  looked like this
+* walking
+* walkingupstairs
+* walkingdownstairs
+* sitting
+* standing
+* laying
+
+Finally, the averages (mean), values of the corresponding subject and for each activity were computed.
 
 The final variables in the tidy data correspond to the following:
 
