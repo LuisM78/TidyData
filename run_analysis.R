@@ -116,6 +116,7 @@ for (i in 1:88){
 # From the data set created in step 4, 
 # A new data set is created with the averages of each variable for each activity and each subject
 # The dddply command is used for that
+# This corresponds to the last step 5.
 
 df5<-ddply(tidy,.(yvalues,subject),summarize, meantbodyaccmeanx=mean(tbodyaccmeanx)
           ,meantbodyaccmeany=mean(tbodyaccmeany)
