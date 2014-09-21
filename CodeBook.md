@@ -12,6 +12,14 @@ After being downloaded, the original description of the files was read from
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
+The original descriptions are in the files:
+
+* README.txt
+* activity_labels.txt
+* features.txt
+* features_info.txt
+
+
 The data is taken from the accelerometer and gyroscope that are installed in smartphones and is collected for 30 people doing 6 different activities. 
 
 The merged data set (train&test) contained 563 variables with 10299 observations. It was composed of the following files: X_test.txt, y_test.txt, subject_test.txt, X_train.txt, y_train.txt, subject_train.txt.
