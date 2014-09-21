@@ -3,7 +3,7 @@ TidyData
 
 Introduction
 
-Course Project
+This is the Final Course Project for Getting and Cleaning Data coursera course.
 
 The run_analysis.R script loads and process data to create a clean or tidy/data 
 set from an experiment that measures parameters from an accelerometer 
