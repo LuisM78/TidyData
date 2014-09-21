@@ -12,7 +12,7 @@ After being downloaded, the original description of the files was read from
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-The merged data set (train&test) contained 563 variables with 10299 observations.
+The merged data set (train&test) contained 563 variables with 10299 observations. It was composed of the following files: X_test.txt, y_test.txt, subject_test.txt, X_train.txt, y_train.txt, subject_train.txt.
 
 From the merged data set, the variables that contained the: "mean","std" in their names were extracted using regular expressions. These were 86 in total. Another two variables to include the yvalues and the subject columns were added to the data set. The variables names were also treated to eliminate any dashes (-),parenthesis "()". All the variables names were also converted to lowercase. 
 For the activity labels, they were changed from the corresponding integer
