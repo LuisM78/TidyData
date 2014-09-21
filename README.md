@@ -51,5 +51,9 @@ The process can be summarized as following steps
 
 Each step has been clearly commented in the run_analysis.R file.
 
+For a description of the variables in the tidy data set, look into the CodeBook.md file.
+
+
+
 
 
