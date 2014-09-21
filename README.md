@@ -51,6 +51,10 @@ The process can be summarized as following steps
 
 Each step has been clearly commented in the run_analysis.R file.
 
+If it is wanted to open the clean/tidy data set, please use
+
+data <- read.table("tidydata.txt", sep = ",",header = TRUE)
+
 For a description of the variables in the tidy data set, look into the CodeBook.md file.
 
 
