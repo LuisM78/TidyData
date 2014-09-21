@@ -14,12 +14,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 
 The final variables in the tidy data correspond to the following:
-    yvalues    # Correspond to the activity column
-    subject    # Correspond to the subject
-    mean(tbodyaccmeanx)
-    mean(tbodyaccmeany)
-    mean(tbodyaccmeanz)
-    mean(tbodyaccstdx)
+
+    * yvalues    # Correspond to the activity column
+    * subject    # Correspond to the subject
+    * mean(tbodyaccmeanx)
+    * mean(tbodyaccmeany)
+    * mean(tbodyaccmeanz)
+    * mean(tbodyaccstdx)
     mean(tbodyaccstdy)
     mean(tbodyaccstdz)
     mean(tgravityaccmeanx)
